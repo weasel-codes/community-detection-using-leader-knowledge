@@ -1,5 +1,7 @@
 # Community Detection In Complex Network Using Leader Knowledge
 
+> This file, "README.md" is created in markdown format. To view, this file, either install a [google chrome extension](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en) or check it on [github](https://github.com/weasel-codes/community-detection-using-leader-knowledge).
+
 This document consists of guide to run the code files and details about working environment that have been submitted as our work to the WSC project work.
 
 Following sections are divided as follows : 

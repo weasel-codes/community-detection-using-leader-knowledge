@@ -2,8 +2,6 @@
 
 This document consists of guide to run the code files and details about working environment that have been submitted as our work to the WSC project work.
 
-```All code is written and is to be tested over  google colab. All code files have code written to import and handle all the depedencies and libraries. Hence, libraries mentioned below are not required to be sent in project package but are mentioned here just for reference.```
-
 Following sections are divided as follows : 
 
 * Folder Structure : gives insight on how files are arranged in this submission inside `Report`, `Datasets`, `Software`, `Source_Code` and `Images` sub folders.
@@ -52,6 +50,7 @@ Our source code is divided into 3 parts performing three objective of our projec
 * ```Source_Code/WSC_Implementation_Plot.ipynb``` deals with printing of clusters obtained in ```Source_Code/WSC_Implementation.ipynb``` .
 
 ### Images
+This folder consist of images required to create this readme document.
 
 ## Working Environment
 * Programming language : Python
@@ -95,6 +94,35 @@ Python packages you need to install. The list of libraries that we have used her
 * Run the whole colab file from `runtime > run all`. There is no other dependency required for this.
 
 ## Results
+Here are the observations from the results obtained :
+* It was observed that in case of Zachary dataset,
+both Autoleader and our implementation provide
+better results than SCAN and Girvan Newmann.
+* In case of Football and Polbook dataset, our
+implementation, if not better, is at least as good
+as any of the other algorithm.
+* Nodes marked in red are leader nodes of clusters and same color of nodes is representing different nodes belonging to same cluster.
+
+### Zachary
+* Table showing result for Zachary dataset : 
+![Zachary Clusters Found](Images/zachary_table.png)
+
+* Clusters found after running updated autoleader :
+![Zachary Clusters Found](Images/zachary.png)
+
+### Polbooks
+* Table showing result for Polbooks dataset : 
+![Zachary Clusters Found](Images/polbooks_table.png)
+
+* Clusters found after running updated autoleader :
+![Polbooks Clusters Found](Images/polbooks.png)
+
+### Football
+* Table showing result for Football dataset : 
+![Zachary Clusters Found](Images/football_table.png)
+
+* Clusters found after running updated autoleader :
+![Football Clusters Found](Images/football.png)
 
 ## Authors
 
@@ -105,4 +133,4 @@ Python packages you need to install. The list of libraries that we have used her
 | Nitin Sharma            | 202IT017    |
 
 ## References
-* Github link where project is present and can be referred for future work.
+* [Github link](https://github.com/weasel-codes/community-detection-using-leader-knowledge) where project is present and can be referred for future work.

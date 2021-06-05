@@ -105,23 +105,45 @@ as any of the other algorithm.
 
 ### Zachary
 * Table showing result for Zachary dataset : 
+
+<br />
+
 ![Zachary Clusters Found](Images/zachary_table.png)
 
+<br />
+
 * Clusters found after running updated autoleader :
+
+<br />
+
 ![Zachary Clusters Found](Images/zachary.png)
 
 ### Polbooks
 * Table showing result for Polbooks dataset : 
+
+<br />
+
 ![Zachary Clusters Found](Images/polbooks_table.png)
 
+<br />
+
 * Clusters found after running updated autoleader :
+
+<br />
+
 ![Polbooks Clusters Found](Images/polbooks.png)
 
 ### Football
 * Table showing result for Football dataset : 
-![Zachary Clusters Found](Images/football_table.png)
+
+<br />![Zachary Clusters Found](Images/football_table.png)
+
+<br />
 
 * Clusters found after running updated autoleader :
+
+<br />
+
 ![Football Clusters Found](Images/football.png)
 
 ## Authors
